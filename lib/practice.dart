@@ -11,7 +11,8 @@ class _MyNavigateState extends State<MyNavigate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: NavigationBar(destinations: const[
+      bottomNavigationBar: 
+      NavigationBar(destinations: const[
         NavigationDestination(icon: Icon(Icons.home_mini_rounded), label: 'Home',),
         NavigationDestination(icon: Icon(Icons.shop), label: 'Store',),
         NavigationDestination(icon: Icon(Icons.heart_broken), label: 'WishList',),

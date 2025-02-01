@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
+import 'package:talha/card.dart';
 import 'package:talha/practice.dart';
 
 class Myhome extends StatefulWidget {
@@ -71,7 +72,7 @@ class _MyhomeState extends State<Myhome> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => MyNavigate()),
+                MaterialPageRoute(builder: (context) => MyCard()),
               );
             },
             child: Padding(padding: const EdgeInsets.symmetric(horizontal: 10.0),
